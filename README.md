@@ -9,12 +9,9 @@ Welcome to the AirBnB clone project! (The Holberton B&B)
 ## Getting Started
 
  
-**What’s a command interpreter?**
+**Command interpreter?**
 
-Do you remember the Shell? It’s exactly the same but limited to a specific use-case. In our case, we want to
-
-be able to manage the objects of our project:
-
+We will to be able to manage the objects of our project:
   
 
 - Create a new object (ex: a new User or a new Place)
@@ -118,14 +115,14 @@ $ ./console.py
 (hbnb) create
 ** class name missing **
 (hbnb) create User
-670265eb-5982-489e-8b92-2dff054f0776
+53a67f44-96c4-1e89-4d32-213147314b34
 ```
 **Show an object**
 ```
 (hbnb) show User
 ** instance id missing **
-(hbnb) show User 670265eb-5982-489e-8b92-2dff054f0776
-[User] (670265eb-5982-489e-8b92-2dff054f0776) {'created_at': datetime.datetime(2020, 2, 19, 18, 8, 58, 458246), 'id': '670265eb-5982-489e-8b92-2dff054f0776', 'updated_at': datetime.datetime(2020, 2, 19, 18, 8, 58, 458261)}
+(hbnb) show User 53a67f44-96c4-1e89-4d32-213147314b34
+[User] (53a67f44-96c4-1e89-4d32-213147314b34) {'created_at': datetime.datetime(2020, 2, 19, 18, 8, 58, 458246), 'id': '53a67f44-96c4-1e89-4d32-213147314b34', 'updated_at': datetime.datetime(2020, 2, 19, 18, 8, 58, 458261)}
 ```
 **Update an object**
 ```
@@ -148,6 +145,6 @@ $ ./console.py
 ** class name missing **
 (hbnb) destroy User
 ** instance id missing **
-(hbnb) destroy User 670265eb-5982-489e-8b92-2dff054f0776
+(hbnb) destroy User 53a67f44-96c4-1e89-4d32-213147314b34
 (hbnb)
 ```
